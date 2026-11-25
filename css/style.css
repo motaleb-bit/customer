@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+ul, li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+    padding: 0;
+}
+.bannerContent h4 {
+    margin-top: 24px;
+}
+.bannerContent h1 {
+    margin-top: 48px;
+}
+.bannerContent {
+    text-align: center;
+}
+.bannerContent p {
+    margin-top: 30px;
+}
+.cardwrapper {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.card {
+    display: flex;
+    gap: 50px;
+    /* width: 548px; */
+    
+}
+.leftCard{
+    border: 1px solid #f0e4e4;
+    background: #f0e4e4;
+    margin-top: 72px;
+    width: 50%;
+    /* width: 600px; */
+}
+.leftCard p {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+.rightCard{
+    border: 1px solid #f0e4e4;
+    background: #f0e4e4;
+    margin-top: 72px;
+    width: 50%;
+}
+.rightCard p {
+    width: 400px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+.leftCard h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.leftCard p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.rightCard h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rightCard p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.images_one {
+    text-align: center;
+    margin-top: 72px;
+}
+.image_two {
+    text-align: center;
+    margin-top: 72px;
+}
